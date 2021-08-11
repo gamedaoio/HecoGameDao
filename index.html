@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta charset=utf-8><meta data-n-head=true property=og:site_name content="GameDao DeFi"><meta data-n-head=true property=og:title content="GameDao DeFi"><meta data-n-head=true property=og:type content=website><meta data-n-head=true property=og:url content=https://gamedao.io><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta name=apple-mobile-web-app-capable content=yes><title data-n-head=true>GameDao(Heco)</title><link data-n-head=true rel=icon type=image/x-icon href=/static/favicon.ico><style>* {
+        margin: 0;
+        padding: 0;
+      }
+
+      #cnzz_stat_icon_1278802451 {
+        display: none;
+      }
+
+      #app {
+        height: 100%;
+      }
+
+      .el-message {
+        margin-top: 40px !important;
+      }
+
+      .vc-switch {
+        bottom: 100px !important;
+      }
+      /* @media only screen and (max-width: 900px) {
+        .el-message__box {
+          width: 90%;
+        }
+      } */</style><link href=https://cdn.jsdelivr.net/gh/gamedaoio/HecoGameDao/static/css/app.45f176a749d1ec9013be074f3fdbc30f.css rel=stylesheet></head><body style="margin:0 auto;"><div id=app></div><script>window.dataLayer = window.dataLayer || [];
+
+      const keyCodeMap = {
+        91: true, // command
+        61: true,
+        107: true, // 数字键盘 +
+        109: true, // 数字键盘 -
+        173: true, // 火狐 - 号
+        187: true, // +
+        189: true, // -
+      };
+      // 覆盖ctrl||command + ‘+’/‘-’
+      document.onkeydown = function(event) {
+        const e = event || window.event;
+        const ctrlKey = e.ctrlKey || e.metaKey;
+        if (ctrlKey && keyCodeMap[e.keyCode]) {
+          e.preventDefault();
+        } else if (e.detail) {
+          // Firefox
+          event.returnValue = false;
+        }
+      };</script><script src=https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js></script><script src=https://cdn.jsdelivr.net/npm/vue-router@3.0.1/dist/vue-router.min.js></script><script src=https://cdn.jsdelivr.net/npm/vuex@3.0.1/dist/vuex.min.js></script><script src=https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/index.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/zh-CN.js></script><script src=https://cdn.jsdelivr.net/npm/element-ui@2.13.2/lib/umd/locale/en.js></script><script src=https://cdn.jsdelivr.net/gh/gamedaoio/HecoGameDao/static/js/BigInteger.min.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HecoGameDao/static/js/manifest.fc32303c7e28c683c1fb.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HecoGameDao/static/js/vendor.6dbddf68a79a3806831e.js></script><script type=text/javascript src=https://cdn.jsdelivr.net/gh/gamedaoio/HecoGameDao/static/js/app.f03dccff9d809136dea3.js></script></body></html>
